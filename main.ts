@@ -11,6 +11,8 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
+// Vice Cover Studio: a multi-panel GTA-style cover maker (hero-and-three, full-bleed, grid,
+// triptych; four sunset/neon grades; three post sizes) — built in the recorded session.
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
